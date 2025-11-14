@@ -1,0 +1,136 @@
+[
+  {
+    "id": "1",
+    "name": "TSF Chapter - NIT Calicut",
+    "collegeId": "1",
+    "description": "Active communication club at NIT Calicut focusing on improving public speaking and placement skills.",
+    "status": "active",
+    "adminId": "2",
+    "banner_url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=400&fit=crop",
+    "foundedDate": "2023-09-01T00:00:00Z",
+    "meetingFrequency": "weekly",
+    "meetingDay": "Saturday",
+    "meetingTime": "10:00 AM",
+    "socialLinks": {
+      "instagram": "https://instagram.com/tsfnitc",
+      "linkedin": "https://linkedin.com/company/tsf-nitc",
+      "youtube": "https://youtube.com/@tsfnitc"
+    },
+    "totalMembers": 45,
+    "createdAt": "2023-09-01T00:00:00Z",
+    "updatedAt": "2024-01-15T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "name": "TSF Chapter - College of Engineering Trivandrum",
+    "collegeId": "2",
+    "description": "Premier communication club at CET helping students develop essential soft skills.",
+    "status": "active",
+    "adminId": "3",
+    "banner_url": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&h=400&fit=crop",
+    "foundedDate": "2023-08-15T00:00:00Z",
+    "meetingFrequency": "weekly",
+    "meetingDay": "Sunday",
+    "meetingTime": "2:00 PM",
+    "socialLinks": {
+      "instagram": "https://instagram.com/tsfcet",
+      "linkedin": "https://linkedin.com/company/tsf-cet"
+    },
+    "totalMembers": 38,
+    "createdAt": "2023-08-15T00:00:00Z",
+    "updatedAt": "2024-01-10T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "name": "TSF Chapter - Government Engineering College Thrissur",
+    "collegeId": "3",
+    "description": "Growing communication club at GEC Thrissur focused on professional development.",
+    "status": "active",
+    "adminId": "6",
+    "banner_url": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&h=400&fit=crop",
+    "foundedDate": "2023-10-01T00:00:00Z",
+    "meetingFrequency": "biweekly",
+    "meetingDay": "Saturday",
+    "meetingTime": "3:00 PM",
+    "socialLinks": {
+      "instagram": "https://instagram.com/tsfgec",
+      "linkedin": "https://linkedin.com/company/tsf-gec"
+    },
+    "totalMembers": 28,
+    "createdAt": "2023-10-01T00:00:00Z",
+    "updatedAt": "2024-01-12T00:00:00Z"
+  },
+  {
+    "id": "4",
+    "name": "TSF Chapter - Government Engineering College Kozhikode",
+    "collegeId": "4",
+    "description": "Emerging communication club at GEC Kozhikode.",
+    "status": "pending",
+    "adminId": null,
+    "banner_url": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800&h=400&fit=crop",
+    "foundedDate": null,
+    "meetingFrequency": "weekly",
+    "meetingDay": "Saturday",
+    "meetingTime": "4:00 PM",
+    "socialLinks": {},
+    "totalMembers": 0,
+    "createdAt": "2024-01-20T00:00:00Z",
+    "updatedAt": "2024-01-20T00:00:00Z"
+  },
+  {
+    "id": "5",
+    "name": "TSF Chapter - Model Engineering College",
+    "collegeId": "5",
+    "description": "Dynamic communication club at MEC Kochi.",
+    "status": "pending",
+    "adminId": null,
+    "banner_url": "https://images.unsplash.com/photo-1569074187119-c87815b4472b?w=800&h=400&fit=crop",
+    "foundedDate": null,
+    "meetingFrequency": "weekly",
+    "meetingDay": "Sunday",
+    "meetingTime": "11:00 AM",
+    "socialLinks": {},
+    "totalMembers": 0,
+    "createdAt": "2024-01-22T00:00:00Z",
+    "updatedAt": "2024-01-22T00:00:00Z"
+  },
+  {
+    "id": "6",
+    "name": "TSF Chapter - Rajagiri School of Engineering & Technology",
+    "collegeId": "6",
+    "description": "Professional communication club at RSET.",
+    "status": "active",
+    "adminId": null,
+    "banner_url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=400&fit=crop",
+    "foundedDate": "2023-11-01T00:00:00Z",
+    "meetingFrequency": "weekly",
+    "meetingDay": "Saturday",
+    "meetingTime": "2:00 PM",
+    "socialLinks": {
+      "instagram": "https://instagram.com/tsfrset"
+    },
+    "totalMembers": 22,
+    "createdAt": "2023-11-01T00:00:00Z",
+    "updatedAt": "2024-01-25T00:00:00Z"
+  },
+  {
+    "id": "7",
+    "name": "TSF Chapter - Amrita School of Engineering",
+    "collegeId": "7",
+    "description": "Vibrant communication club at Amrita Kollam.",
+    "status": "active",
+    "adminId": "10",
+    "banner_url": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=400&fit=crop",
+    "foundedDate": "2023-09-15T00:00:00Z",
+    "meetingFrequency": "weekly",
+    "meetingDay": "Sunday",
+    "meetingTime": "3:00 PM",
+    "socialLinks": {
+      "instagram": "https://instagram.com/tsfamrita",
+      "linkedin": "https://linkedin.com/company/tsf-amrita"
+    },
+    "totalMembers": 35,
+    "createdAt": "2023-09-15T00:00:00Z",
+    "updatedAt": "2024-01-18T00:00:00Z"
+  }
+]

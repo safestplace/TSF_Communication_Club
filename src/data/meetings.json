@@ -1,0 +1,226 @@
+[
+  {
+    "id": "1",
+    "chapterId": "1",
+    "title": "Weekly Communication Practice - Public Speaking",
+    "agenda": "Practice public speaking skills with impromptu speeches and peer feedback",
+    "description": "This week's session focuses on impromptu speaking and building confidence in public presentations.",
+    "dateTime": "2024-02-03T10:00:00Z",
+    "duration": 90,
+    "googleMeetUrl": "https://meet.google.com/abc-defg-hij",
+    "status": "completed",
+    "maxParticipants": 20,
+    "currentParticipants": 18,
+    "roles": {
+      "anchor": "2",
+      "topicProvider": "1",
+      "judges": ["4", "5"],
+      "speakers": ["1", "7", "8"],
+      "listeners": ["4", "5", "9"]
+    },
+    "feedback": [
+      {
+        "userId": "1",
+        "rating": 5,
+        "comment": "Excellent session! Very well organized and helpful feedback.",
+        "submittedAt": "2024-02-03T11:30:00Z"
+      },
+      {
+        "userId": "4",
+        "rating": 4,
+        "comment": "Good practice session. Would like more time for individual feedback.",
+        "submittedAt": "2024-02-03T11:45:00Z"
+      }
+    ],
+    "createdAt": "2024-01-27T00:00:00Z",
+    "updatedAt": "2024-02-03T12:00:00Z"
+  },
+  {
+    "id": "2",
+    "chapterId": "1",
+    "title": "Technical Communication Workshop",
+    "agenda": "Learn how to effectively communicate technical concepts to non-technical audiences",
+    "description": "Special workshop on technical communication skills for engineering students.",
+    "dateTime": "2024-02-10T10:00:00Z",
+    "duration": 120,
+    "googleMeetUrl": "https://meet.google.com/klm-nopq-rst",
+    "status": "upcoming",
+    "maxParticipants": 25,
+    "currentParticipants": 15,
+    "roles": {
+      "anchor": "2",
+      "topicProvider": "6",
+      "judges": ["3", "4"],
+      "speakers": ["1", "5", "7", "8"],
+      "listeners": ["9", "10"]
+    },
+    "feedback": [],
+    "createdAt": "2024-02-01T00:00:00Z",
+    "updatedAt": "2024-02-01T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "chapterId": "2",
+    "title": "Mock Interview Session",
+    "agenda": "Practice interview skills with mock interviews and resume reviews",
+    "description": "Prepare for placement interviews with real-time practice and expert feedback.",
+    "dateTime": "2024-02-04T14:00:00Z",
+    "duration": 120,
+    "googleMeetUrl": "https://meet.google.com/uvw-xyz-123",
+    "status": "completed",
+    "maxParticipants": 15,
+    "currentParticipants": 12,
+    "roles": {
+      "anchor": "3",
+      "topicProvider": "4",
+      "judges": ["3", "6"],
+      "speakers": ["4", "5", "6"],
+      "listeners": ["7", "8"]
+    },
+    "feedback": [
+      {
+        "userId": "4",
+        "rating": 5,
+        "comment": "Very helpful mock interview session. Great feedback from judges.",
+        "submittedAt": "2024-02-04T16:00:00Z"
+      }
+    ],
+    "createdAt": "2024-01-28T00:00:00Z",
+    "updatedAt": "2024-02-04T17:00:00Z"
+  },
+  {
+    "id": "4",
+    "chapterId": "2",
+    "title": "Group Discussion Practice",
+    "agenda": "Practice group discussion skills for placement interviews",
+    "description": "Focus on group discussion techniques, leadership skills, and effective communication in team settings.",
+    "dateTime": "2024-02-11T14:00:00Z",
+    "duration": 90,
+    "googleMeetUrl": "https://meet.google.com/abc-123-def",
+    "status": "upcoming",
+    "maxParticipants": 20,
+    "currentParticipants": 8,
+    "roles": {
+      "anchor": "3",
+      "topicProvider": "4",
+      "judges": ["6", "10"],
+      "speakers": ["4", "5", "7", "8"],
+      "listeners": ["9", "10"]
+    },
+    "feedback": [],
+    "createdAt": "2024-02-02T00:00:00Z",
+    "updatedAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "id": "5",
+    "chapterId": "3",
+    "title": "Debate Competition",
+    "agenda": "Inter-chapter debate competition on current topics",
+    "description": "Annual debate competition with participants from multiple chapters.",
+    "dateTime": "2024-02-05T15:00:00Z",
+    "duration": 150,
+    "googleMeetUrl": "https://meet.google.com/debate-2024",
+    "status": "completed",
+    "maxParticipants": 30,
+    "currentParticipants": 25,
+    "roles": {
+      "anchor": "6",
+      "topicProvider": "3",
+      "judges": ["2", "3", "6"],
+      "speakers": ["5", "7", "8", "9"],
+      "listeners": ["1", "4", "10"]
+    },
+    "feedback": [
+      {
+        "userId": "5",
+        "rating": 5,
+        "comment": "Amazing debate competition! Well organized and great topics.",
+        "submittedAt": "2024-02-05T17:30:00Z"
+      },
+      {
+        "userId": "7",
+        "rating": 4,
+        "comment": "Good competition. Would like more time for preparation next time.",
+        "submittedAt": "2024-02-05T17:45:00Z"
+      }
+    ],
+    "createdAt": "2024-01-25T00:00:00Z",
+    "updatedAt": "2024-02-05T18:00:00Z"
+  },
+  {
+    "id": "6",
+    "chapterId": "3",
+    "title": "Storytelling Workshop",
+    "agenda": "Learn the art of storytelling for effective communication",
+    "description": "Workshop on storytelling techniques and their application in professional communication.",
+    "dateTime": "2024-02-12T15:00:00Z",
+    "duration": 90,
+    "googleMeetUrl": "https://meet.google.com/story-2024",
+    "status": "upcoming",
+    "maxParticipants": 20,
+    "currentParticipants": 12,
+    "roles": {
+      "anchor": "6",
+      "topicProvider": "2",
+      "judges": ["4", "5"],
+      "speakers": ["1", "3", "6", "8"],
+      "listeners": ["7", "9", "10"]
+    },
+    "feedback": [],
+    "createdAt": "2024-02-03T00:00:00Z",
+    "updatedAt": "2024-02-03T00:00:00Z"
+  },
+  {
+    "id": "7",
+    "chapterId": "7",
+    "title": "Leadership Communication",
+    "agenda": "Develop leadership communication skills and team management",
+    "description": "Focus on communication strategies for effective leadership and team collaboration.",
+    "dateTime": "2024-02-06T15:00:00Z",
+    "duration": 120,
+    "googleMeetUrl": "https://meet.google.com/leadership-2024",
+    "status": "completed",
+    "maxParticipants": 25,
+    "currentParticipants": 20,
+    "roles": {
+      "anchor": "10",
+      "topicProvider": "3",
+      "judges": ["2", "6", "10"],
+      "speakers": ["1", "4", "7", "9"],
+      "listeners": ["5", "8"]
+    },
+    "feedback": [
+      {
+        "userId": "1",
+        "rating": 5,
+        "comment": "Excellent session on leadership communication. Very practical insights.",
+        "submittedAt": "2024-02-06T17:00:00Z"
+      }
+    ],
+    "createdAt": "2024-01-30T00:00:00Z",
+    "updatedAt": "2024-02-06T18:00:00Z"
+  },
+  {
+    "id": "8",
+    "chapterId": "7",
+    "title": "Presentation Skills Masterclass",
+    "agenda": "Master the art of creating and delivering impactful presentations",
+    "description": "Advanced workshop on presentation design, delivery techniques, and audience engagement.",
+    "dateTime": "2024-02-13T15:00:00Z",
+    "duration": 120,
+    "googleMeetUrl": "https://meet.google.com/presentation-2024",
+    "status": "upcoming",
+    "maxParticipants": 30,
+    "currentParticipants": 18,
+    "roles": {
+      "anchor": "10",
+      "topicProvider": "2",
+      "judges": ["3", "6"],
+      "speakers": ["1", "5", "8", "9"],
+      "listeners": ["4", "7", "10"]
+    },
+    "feedback": [],
+    "createdAt": "2024-02-04T00:00:00Z",
+    "updatedAt": "2024-02-04T00:00:00Z"
+  }
+]
