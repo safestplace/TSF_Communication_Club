@@ -17,6 +17,7 @@ A modern, professional, and responsive frontend for the TSF Communication Club w
 - **Framework**: Next.js 15 with App Router
 - **Language**: TypeScript 5
 - **Styling**: Tailwind CSS 4 with shadcn/ui components
+- **Database**: Supabase (PostgreSQL)
 - **State Management**: React Context API + Local Storage
 - **Icons**: Lucide React
 - **Components**: Radix UI primitives via shadcn/ui
