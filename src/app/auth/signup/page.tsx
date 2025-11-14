@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -12,7 +12,14 @@ import { Textarea } from '@/components/ui/textarea';
 import { getColleges, searchColleges, College } from '@/lib/data';
 import { Loader2, Mail, Lock, User, ArrowLeft, Users, Plus, Search } from 'lucide-react';
 
-export default function SignupPage() {
+function SignupForm() {
+  const searchParams = useSearchParams();
+  const flowParam = searchParams.get('flow');
+
+  return <SignupPageContent flowParam={flowParam} />;
+}
+
+function SignupPageContent({ flowParam }: { flowParam: string | null }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
@@ -26,8 +33,6 @@ export default function SignupPage() {
   const [chapterName, setChapterName] = useState('');
   const [purpose, setPurpose] = useState('');
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const flowParam = searchParams.get('flow');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -298,5 +303,13 @@ export default function SignupPage() {
         </Card>
       </div>
     </div>
+  );
+}
+
+export default function SignupPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <SignupForm />
+    </Suspense>
   );
 }
