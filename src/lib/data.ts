@@ -137,61 +137,61 @@ export interface Certificate {
 
 // Data access functions
 export const getColleges = (): College[] => collegesData;
-export const getUsers = (): User[] => usersData;
-export const getChapters = (): Chapter[] => chaptersData;
-export const getMeetings = (): Meeting[] => meetingsData;
-export const getMemberships = (): Membership[] => membershipsData;
-export const getPoints = (): Point[] => pointsData;
-export const getCertificates = (): Certificate[] => certificatesData;
+export const getUsers = (): User[] => usersData as User[];
+export const getChapters = (): Chapter[] => chaptersData as Chapter[];
+export const getMeetings = (): Meeting[] => meetingsData as Meeting[];
+export const getMemberships = (): Membership[] => membershipsData as Membership[];
+export const getPoints = (): Point[] => pointsData as Point[];
+export const getCertificates = (): Certificate[] => certificatesData as Certificate[];
 
 // Helper functions
-export const getCollegeById = (id: string): College | undefined => 
+export const getCollegeById = (id: string): College | undefined =>
   collegesData.find(college => college.id === id);
 
-export const getUserByEmail = (email: string): User | undefined => 
-  usersData.find(user => user.email === email);
+export const getUserByEmail = (email: string): User | undefined =>
+  usersData.find(user => user.email === email) as User | undefined;
 
-export const getUserById = (id: string): User | undefined => 
-  usersData.find(user => user.id === id);
+export const getUserById = (id: string): User | undefined =>
+  usersData.find(user => user.id === id) as User | undefined;
 
-export const getChapterById = (id: string): Chapter | undefined => 
-  chaptersData.find(chapter => chapter.id === id);
+export const getChapterById = (id: string): Chapter | undefined =>
+  chaptersData.find(chapter => chapter.id === id) as Chapter | undefined;
 
-export const getChaptersByCollegeId = (collegeId: string): Chapter[] => 
-  chaptersData.filter(chapter => chapter.collegeId === collegeId);
+export const getChaptersByCollegeId = (collegeId: string): Chapter[] =>
+  chaptersData.filter(chapter => chapter.collegeId === collegeId) as Chapter[];
 
-export const getMeetingById = (id: string): Meeting | undefined => 
-  meetingsData.find(meeting => meeting.id === id);
+export const getMeetingById = (id: string): Meeting | undefined =>
+  meetingsData.find(meeting => meeting.id === id) as Meeting | undefined;
 
-export const getMeetingsByChapterId = (chapterId: string): Meeting[] => 
-  meetingsData.filter(meeting => meeting.chapterId === chapterId);
+export const getMeetingsByChapterId = (chapterId: string): Meeting[] =>
+  meetingsData.filter(meeting => meeting.chapterId === chapterId) as Meeting[];
 
-export const getUpcomingMeetings = (): Meeting[] => 
-  meetingsData.filter(meeting => meeting.status === 'upcoming');
+export const getUpcomingMeetings = (): Meeting[] =>
+  meetingsData.filter(meeting => meeting.status === 'upcoming') as Meeting[];
 
-export const getCompletedMeetings = (): Meeting[] => 
-  meetingsData.filter(meeting => meeting.status === 'completed');
+export const getCompletedMeetings = (): Meeting[] =>
+  meetingsData.filter(meeting => meeting.status === 'completed') as Meeting[];
 
-export const getMembershipsByUserId = (userId: string): Membership[] => 
-  membershipsData.filter(membership => membership.userId === userId);
+export const getMembershipsByUserId = (userId: string): Membership[] =>
+  membershipsData.filter(membership => membership.userId === userId) as Membership[];
 
-export const getMembershipsByChapterId = (chapterId: string): Membership[] => 
-  membershipsData.filter(membership => membership.chapterId === chapterId);
+export const getMembershipsByChapterId = (chapterId: string): Membership[] =>
+  membershipsData.filter(membership => membership.chapterId === chapterId) as Membership[];
 
-export const getPendingMemberships = (): Membership[] => 
-  membershipsData.filter(membership => membership.status === 'pending');
+export const getPendingMemberships = (): Membership[] =>
+  membershipsData.filter(membership => membership.status === 'pending') as Membership[];
 
-export const getPointsByUserId = (userId: string): Point[] => 
-  pointsData.filter(point => point.userId === userId);
+export const getPointsByUserId = (userId: string): Point[] =>
+  pointsData.filter(point => point.userId === userId) as Point[];
 
-export const getTotalPointsByUserId = (userId: string): number => 
+export const getTotalPointsByUserId = (userId: string): number =>
   getPointsByUserId(userId).reduce((total, point) => total + point.points, 0);
 
-export const getCertificatesByUserId = (userId: string): Certificate[] => 
-  certificatesData.filter(certificate => certificate.userId === userId);
+export const getCertificatesByUserId = (userId: string): Certificate[] =>
+  certificatesData.filter(certificate => certificate.userId === userId) as Certificate[];
 
-export const getActiveCertificatesByUserId = (userId: string): Certificate[] => 
-  certificatesData.filter(certificate => certificate.userId === userId && certificate.isActive);
+export const getActiveCertificatesByUserId = (userId: string): Certificate[] =>
+  certificatesData.filter(certificate => certificate.userId === userId && certificate.isActive) as Certificate[];
 
 // Search functions
 export const searchColleges = (query: string): College[] => {
@@ -215,12 +215,12 @@ export const authenticateUser = (email: string, password: string): User | null =
 
 // In-memory storage for dynamic data (simulating database updates)
 const dynamicData = {
-  users: [...usersData],
-  chapters: [...chaptersData],
-  meetings: [...meetingsData],
-  memberships: [...membershipsData],
-  points: [...pointsData],
-  certificates: [...certificatesData]
+  users: [...usersData] as User[],
+  chapters: [...chaptersData] as Chapter[],
+  meetings: [...meetingsData] as Meeting[],
+  memberships: [...membershipsData] as Membership[],
+  points: [...pointsData] as Point[],
+  certificates: [...certificatesData] as Certificate[]
 };
 
 // Update functions (simulating database operations)

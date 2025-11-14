@@ -57,7 +57,7 @@ export default function MeetingPage() {
       
       // Load related data
       const chapterData = getChapterById(meetingData.chapterId);
-      setChapter(chapterData);
+      setChapter(chapterData || null);
       
       if (chapterData) {
         const collegeData = getCollegeById(chapterData.collegeId);
